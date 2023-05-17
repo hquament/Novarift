@@ -31,6 +31,10 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  /* Rect button */
+  .rect-button {
+    margin: 1rem 0;
+  }
   /* section content */
   .sec-con {
     max-width: none !important;
@@ -56,13 +60,20 @@
   }
   .sec-heading h2 {
     width: 100%;
+    text-align: center;
     margin: 0 0 -8px 0;
   }
-  .sellers .sec-heading img {
+  .sec-heading-line {
     display: block;
   }
+
   .sec-heading-svg {
     display: none;
+  }
+  .sec-heading img {
+    display: block;
+    position: relative;
+    top: 0.7rem;
   }
   /* New cards */
   .new-cards {
@@ -75,6 +86,9 @@
   }
   .new-card {
     min-width: 250px;
+  }
+  .sellers .sec-header {
+    margin-top: 5rem;
   }
   /* About us */
   #lg-about-bg {
@@ -89,6 +103,9 @@
     top: 48%;
   }
   /* Best Sellers */
+  .sellers .sec-header {
+    margin-top: 8rem;
+  }
   .about {
     margin-top: 5rem;
   }
@@ -120,6 +137,7 @@
   }
   nav {
     padding: 0;
+    justify-content: space-around;
   }
   .nav-logo {
     width: 10rem;
@@ -162,7 +180,7 @@
     flex-direction: column;
   }
   .lg-footer .foot-col {
-    padding:1rem 0 2rem 0 ;
+    padding: 1rem 0 2rem 0;
   }
   .lg-footer .foot-col h1 {
     font-size: 14px;
