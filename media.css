@@ -1,0 +1,173 @@
+@media only screen and (min-width: 1280px) {
+  .new-cards {
+    margin: 3rem 10rem;
+  }
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .new-cards {
+    margin: 3rem 6rem;
+  }
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  footer .foot-col {
+    width: 33%;
+  }
+  footer .foot-col h1 {
+    font-size: 14px;
+  }
+  footer .foot-col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* section content */
+  .sec-con {
+    max-width: none !important;
+  }
+  /* Navbar */
+  .home .sec-con {
+    top: 50%;
+    width: 100%;
+    left: 0;
+    align-items: center;
+  }
+  .home-btns {
+    flex-direction: column;
+  }
+  .home-btns div:first-of-type {
+    margin: 0;
+    margin-bottom: 1.3rem !important ;
+  }
+  /* Whats new */
+  .sec-header {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .sec-heading h2 {
+    width: 100%;
+    margin: 0 0 -8px 0;
+  }
+  .sellers .sec-heading img {
+    display: block;
+  }
+  .sec-heading-svg {
+    display: none;
+  }
+  /* New cards */
+  .new-cards {
+    margin: 0;
+    flex-direction: row;
+    overflow-y: scroll;
+    flex-wrap: unset;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .new-card {
+    min-width: 250px;
+  }
+  /* About us */
+  #lg-about-bg {
+    display: none;
+  }
+  #sm-about-bg {
+    width: 100%;
+    display: block;
+  }
+
+  .about .sec-con {
+    top: 48%;
+  }
+  /* Best Sellers */
+  .about {
+    margin-top: 5rem;
+  }
+  .sell-cards {
+    overflow-y: scroll;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: unset;
+    margin: 1.5rem 0;
+  }
+
+  .why .sec-con-svg {
+    width: 100%;
+  }
+  .why .sec-con {
+    top: 50%;
+    left: 14%;
+  }
+  .why .sec-con img {
+    display: block;
+    position: relative;
+    width: 100vw;
+    left: -21%;
+  }
+
+  .sell-card {
+    min-width: 240px;
+  }
+  nav {
+    padding: 0;
+  }
+  .nav-logo {
+    width: 10rem;
+  }
+  .sm-nav {
+    display: block;
+  }
+  .lg-nav-btns {
+    display: none !important;
+  }
+
+  /* HOme */
+  .sm-home-bg {
+    display: block;
+  }
+  .lg-home-bg {
+    display: none;
+  }
+  /* Why us  */
+  #lg-whyus-bg {
+    display: none;
+  }
+  #sm-whyus-bg {
+    display: block;
+    width: 100%;
+  }
+
+  /* Footer */
+  .lg-footer {
+    margin: 10rem 0 0 0;
+    padding: 2rem 0;
+    background: url("./assets/images/mob-footer-bg.png") no-repeat top;
+  }
+  .lg-footer .contain {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .foot-games {
+    flex-direction: column;
+  }
+  .lg-footer .foot-col {
+    padding:1rem 0 2rem 0 ;
+  }
+  .lg-footer .foot-col h1 {
+    font-size: 14px;
+  }
+  .lg-footer .foot-col ul li {
+    font-size: 13px;
+  }
+}
