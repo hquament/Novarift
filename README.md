@@ -1,7 +1,3 @@
-Certainly! Here's a simple README file for the NovaRift gaming platform website template:
-
----
-
 # NovaRift Gaming Platform Website Template
 
 ![NovaRift Logo](./assets/images/logo.png)
