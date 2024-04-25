@@ -47,6 +47,9 @@ nav {
   text-align: center;
   text-transform: uppercase;
 }
+.nav-logo{
+  width:11rem;
+}
 .nav-btns:hover {
   cursor: pointer;
 }

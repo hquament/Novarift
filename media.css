@@ -82,10 +82,12 @@
     overflow-y: scroll;
     flex-wrap: unset;
     justify-content: flex-start;
-    margin: 1rem 0;
+    padding: 1rem 4rem;
+    scroll-snap-type: xmandatory;
   }
   .new-card {
     min-width: 250px;
+    scroll-snap-align: center;
   }
   .sellers .sec-header {
     margin-top: 5rem;
